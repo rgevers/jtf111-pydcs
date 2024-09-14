@@ -2481,6 +2481,13 @@ class OptRestrictTargets(Option):
         super(OptRestrictTargets, self).__init__(value)
 
 
+class OptEvadeHARM(Option):
+    Key = 31
+
+    def __init__(self, value: bool = True):
+        super(OptEvadeHARM, self).__init__(value)
+
+
 options: Dict[int, Type[Option]] = {
     OptROE.Key: OptROE,
     OptReactOnThreat.Key: OptReactOnThreat,
@@ -2504,5 +2511,6 @@ options: Dict[int, Type[Option]] = {
     OptRadioUsageEngage.Key: OptRadioUsageEngage,
     OptRadioUsageKill.Key: OptRadioUsageKill,
     OptInterceptionRange.Key: OptInterceptionRange,
-    OptRestrictTargets.Key: OptRestrictTargets
+    OptRestrictTargets.Key: OptRestrictTargets,
+    OptEvadeHARM.Key: OptEvadeHARM,
 }
