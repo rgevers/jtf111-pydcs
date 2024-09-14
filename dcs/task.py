@@ -1548,6 +1548,8 @@ wrappedactions: Dict[str, Type[WrappedAction]] = {
     SwitchWaypoint.Key: SwitchWaypoint,
     StartCommand.Key: StartCommand,
     SmokeCommand.Key: SmokeCommand,
+    ActivateACLSCommand.Key: ActivateACLSCommand,
+    ActivateLink4Command.Key: ActivateLink4Command,
 }
 
 
