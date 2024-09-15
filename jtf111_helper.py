@@ -26,8 +26,52 @@ def processFixedWing(group, groupNum, abbrev, STN, makeName):
             plane.radio[2]['channels'][i] = VHFPresets[i]
 
         #TODO - Laser Codes?
-        #TODO - Callsign Dict?
         planeNum = planeNum + 1
+
+def processTexaco(group):
+    print("Processing", group.name)
+    
+    group.frequency = 280
+    for point in group.points:
+        if len(point.tasks) > 0 and point.tasks[0].id == "Orbit":
+            #Set speed and altitutde
+            point.tasks[0].params['altitude'] = 6705
+            point.tasks[0].params['speed'] = 221
+    
+    plane = group.units[0]
+    plane.addpropaircraft['VoiceCallsignLabel'] = "TO"
+    plane.addpropaircraft['VoiceCallsignNumber'] = "11"
+    plane.callsign_dict['name'] = "Texaco11"
+
+def processShell(group):
+    print("Processing", group.name)
+    
+    group.frequency = 280.3
+    for point in group.points:
+        if len(point.tasks) > 0 and point.tasks[0].id == "Orbit":
+            #Set speed and altitutde
+            point.tasks[0].params['altitude'] = 7620
+            point.tasks[0].params['speed'] = 257
+    
+    plane = group.units[0]
+    plane.addpropaircraft['VoiceCallsignLabel'] = "SL"
+    plane.addpropaircraft['VoiceCallsignNumber'] = "11"
+    plane.callsign_dict['name'] = "Shell11"
+
+def processArco(group):
+    print("Processing", group.name)
+    
+    group.frequency = 280.5
+    for point in group.points:
+        if len(point.tasks) > 0 and point.tasks[0].id == "Orbit":
+            #Set speed and altitutde
+            point.tasks[0].params['altitude'] = 6401
+            point.tasks[0].params['speed'] = 190
+    
+    plane = group.units[0]
+    plane.addpropaircraft['VoiceCallsignLabel'] = "AO"
+    plane.addpropaircraft['VoiceCallsignNumber'] = "11"
+    plane.callsign_dict['name'] = "Arco11"
 
 for group in m.coalition['blue'].countries['USA'].plane_group:
     if(group.name.startswith("Hellcat-1")):
@@ -42,6 +86,12 @@ for group in m.coalition['blue'].countries['USA'].plane_group:
         processFixedWing(group, 2, "NL", "041", "Viper")
     elif(group.name.startswith("Nickel")):
         processFixedWing(group, 3, "NL", "041", "Viper")
+    elif(group.name.startswith("Texaco")):
+        processTexaco(group)
+    elif(group.name.startswith("Shell")):
+        processShell(group)
+    elif(group.name.startswith("Arco")):
+        processArco(group)
     else:
         print("Other Blue Group:", group.name)
 
