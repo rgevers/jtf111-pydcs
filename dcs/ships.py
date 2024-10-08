@@ -496,6 +496,13 @@ class Schnellboot_type_S130(unittype.ShipType):
     threat_range = 4000
     air_weapon_dist = 4000
 
+class HSwMS_Visby(unittype.ShipType):
+    id = "HSwMS_Visby"
+    name = "HSwMS_Visby"
+    detection_range = 10000
+    threat_range = 4000
+    air_weapon_dist = 4000
+
 ship_map = {
     "speedboat": Speedboat,
     "VINSON": VINSON,
@@ -549,4 +556,5 @@ ship_map = {
     "Higgins_boat": Higgins_boat,
     "Uboat_VIIC": Uboat_VIIC,
     "Schnellboot_type_S130": Schnellboot_type_S130,
+    "HSwMS_Visby": HSwMS_Visby,
 }

@@ -693,6 +693,50 @@ class AH_1W(HelicopterType):
     task_default = task.CAS
 
 
+class HKP15B(HelicopterType):
+    id = "HKP15B"
+    height = 3.9
+    width = 14.64
+    length = 17.27
+    fuel_max = 1250.0
+    max_speed = 290
+    chaff = 30
+    flare = 30
+    charge_total = 60
+    chaff_charge_size = 1
+    flare_charge_size = 1
+
+    livery_name = "HKP15B"  # from type
+
+    class Pylon1:
+        M299___4_x_AGM_114K_Hellfire = (1, Weapons.M299___4_x_AGM_114K_Hellfire)
+        _4_x_BGM_71D_TOW_ATGM = (1, Weapons._4_x_BGM_71D_TOW_ATGM)
+        LAU_61___19_x_UnGd_Rkts__70_mm_Hydra_70_M151_HE_ = (1, Weapons.LAU_61___19_x_UnGd_Rkts__70_mm_Hydra_70_M151_HE_)
+        M260_HYDRA = (1, Weapons.M260_HYDRA)
+
+    class Pylon2:
+        LAU_61___19_x_UnGd_Rkts__70_mm_Hydra_70_M151_HE_ = (2, Weapons.LAU_61___19_x_UnGd_Rkts__70_mm_Hydra_70_M151_HE_)
+        M260_HYDRA = (2, Weapons.M260_HYDRA)
+        M260_HYDRA_WP = (2, Weapons.M260_HYDRA_WP)
+        LAU_61___19_x_UnGd_Rkts__70_mm_Hydra_70_M156_SM = (2, Weapons.LAU_61___19_x_UnGd_Rkts__70_mm_Hydra_70_M156_SM)
+
+    class Pylon3:
+        LAU_61___19_x_UnGd_Rkts__70_mm_Hydra_70_M151_HE_ = (3, Weapons.LAU_61___19_x_UnGd_Rkts__70_mm_Hydra_70_M151_HE_)
+        M260_HYDRA = (3, Weapons.M260_HYDRA)
+        M260_HYDRA_WP = (3, Weapons.M260_HYDRA_WP)
+        LAU_61___19_x_UnGd_Rkts__70_mm_Hydra_70_M156_SM = (3, Weapons.LAU_61___19_x_UnGd_Rkts__70_mm_Hydra_70_M156_SM)
+
+    class Pylon4:
+        M299___4_x_AGM_114K_Hellfire = (4, Weapons.M299___4_x_AGM_114K_Hellfire)
+        LAU_61___19_x_UnGd_Rkts__70_mm_Hydra_70_M151_HE_ = (4, Weapons.LAU_61___19_x_UnGd_Rkts__70_mm_Hydra_70_M151_HE_)
+        M260_HYDRA = (4, Weapons.M260_HYDRA)
+        _4_x_BGM_71D_TOW_ATGM = (4, Weapons._4_x_BGM_71D_TOW_ATGM)
+
+    pylons: Set[int] = {1, 2, 3, 4}
+
+    tasks = [task.CAS, task.GroundAttack, task.Escort, task.AFAC, task.AntishipStrike]
+    task_default = task.CAS
+
 class SH_60B(HelicopterType):
     id = "SH-60B"
     height = 4.893
@@ -3090,4 +3134,5 @@ helicopter_map = {
     "SA342L": SA342L,
     "SA342Mistral": SA342Mistral,
     "SA342Minigun": SA342Minigun,
+    "HKP15B": HKP15B,
 }

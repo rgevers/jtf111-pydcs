@@ -1548,6 +1548,8 @@ wrappedactions: Dict[str, Type[WrappedAction]] = {
     SwitchWaypoint.Key: SwitchWaypoint,
     StartCommand.Key: StartCommand,
     SmokeCommand.Key: SmokeCommand,
+    ActivateACLSCommand.Key: ActivateACLSCommand,
+    ActivateLink4Command.Key: ActivateLink4Command,
 }
 
 
@@ -2479,6 +2481,13 @@ class OptRestrictTargets(Option):
         super(OptRestrictTargets, self).__init__(value)
 
 
+class OptEvadeHARM(Option):
+    Key = 31
+
+    def __init__(self, value: bool = True):
+        super(OptEvadeHARM, self).__init__(value)
+
+
 options: Dict[int, Type[Option]] = {
     OptROE.Key: OptROE,
     OptReactOnThreat.Key: OptReactOnThreat,
@@ -2502,5 +2511,6 @@ options: Dict[int, Type[Option]] = {
     OptRadioUsageEngage.Key: OptRadioUsageEngage,
     OptRadioUsageKill.Key: OptRadioUsageKill,
     OptInterceptionRange.Key: OptInterceptionRange,
-    OptRestrictTargets.Key: OptRestrictTargets
+    OptRestrictTargets.Key: OptRestrictTargets,
+    OptEvadeHARM.Key: OptEvadeHARM,
 }

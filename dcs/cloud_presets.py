@@ -250,6 +250,14 @@ class Clouds(Enum):
         max_base=2520,
     )
 
+    OvercastAndRain4 = CloudPreset(
+        name='RainyPreset4',
+        ui_name='Overcast And Rain 4',
+        description='30 ##Overcast with Rain \nMETAR:VIS 3-5KM RA OVC LYR 6/18 19/21 SCT 34',
+        min_base=840,
+        max_base=2520,
+    )
+
 
 CLOUD_PRESETS = {
     'Preset1': Clouds.LightScattered1,
@@ -282,4 +290,5 @@ CLOUD_PRESETS = {
     'RainyPreset1': Clouds.OvercastAndRain1,
     'RainyPreset2': Clouds.OvercastAndRain2,
     'RainyPreset3': Clouds.OvercastAndRain3,
+    'RainyPreset4': Clouds.OvercastAndRain4,
 }

@@ -53,6 +53,7 @@ setup(
         'dcs/terrain/sinai',
         'dcs/terrain/syria',
         'dcs/terrain/thechannel',
+        'dcs/terrain/kola',
     ],
     package_data={
         'dcs': ['py.typed'],
