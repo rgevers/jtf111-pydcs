@@ -1,7 +1,7 @@
 import dcs
 
 m = dcs.Mission()
-m.load_file("/Users/robgevers/Downloads/OperationGoodspeed_Mission5_v2.miz")
+m.load_file("OperationSomnambulist_Phase1.miz")
 
 UHFPresets = {1: 330, 2: 333.3, 4: 258.1, 8: 265.1, 16: 285, 17: 285.1, 9: 265.2, 18: 285.2, 5: 258.2, 10: 280, 20: 300, 11: 280.1, 3: 258, 6: 258.3, 12: 280.3, 13: 280.4, 7: 265, 14: 280.5, 15: 280.6, 19: 285.3}
 VHFPresets = {1: 127, 2: 127.1, 4: 151, 8: 149.1, 16: 137.2, 17: 139.1, 9: 149.2, 18: 139.2, 5: 151.1, 10: 40, 20: 155.975, 11: 40.1, 3: 127.2, 6: 151.2, 12: 40.2, 13: 145.1, 7: 149, 14: 145.2, 15: 137.1, 19: 155.975}
@@ -126,8 +126,9 @@ for group in m.coalition['blue'].countries['USA'].plane_group:
     else:
         print("Other Blue Group:", group.name)
 
-for group in m.coalition['blue'].countries['USA'].helicopter_group:
-    if(group.name.startswith("Gun")):
-        processGun(group)
+# for group in m.coalition['blue'].countries['USA'].helicopter_group:
+#     if(group.name.startswith("Gun")):
+#         processGun(group)
 
+m.save("OperationSomnambulist_Phase1.miz")
 print("End JTF-111 Helper")
