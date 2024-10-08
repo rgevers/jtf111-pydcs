@@ -235,6 +235,7 @@ class Russia(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -315,6 +316,7 @@ class Russia(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -519,6 +521,7 @@ class Russia(Country):
             CallsignGrassAirfield.B01
         ],
     }
+    use_western_callsigns = False
 
     def __init__(self):
         super(Russia, self).__init__(
@@ -755,6 +758,7 @@ class Ukraine(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -827,6 +831,7 @@ class Ukraine(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -935,6 +940,7 @@ class Ukraine(Country):
             CallsignGrassAirfield.B01
         ],
     }
+    use_western_callsigns = False
 
     def __init__(self):
         super(Ukraine, self).__init__(
@@ -1106,7 +1112,6 @@ class USA(Country):
         E_2C = planes.E_2C
         E_3A = planes.E_3A
         F_117A = planes.F_117A
-        F_14A = planes.F_14A
         F_15C = planes.F_15C
         F_15E = planes.F_15E
         F_16A = planes.F_16A
@@ -1155,6 +1160,7 @@ class USA(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
         I_16 = planes.I_16
@@ -1187,7 +1193,6 @@ class USA(Country):
         Plane.E_2C,
         Plane.E_3A,
         Plane.F_117A,
-        Plane.F_14A,
         Plane.F_15C,
         Plane.F_15E,
         Plane.F_16A,
@@ -1236,6 +1241,7 @@ class USA(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
         Plane.I_16,
@@ -1440,6 +1446,7 @@ class USA(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(USA, self).__init__(
@@ -1582,6 +1589,7 @@ class Turkey(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -1641,6 +1649,7 @@ class Turkey(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -1827,6 +1836,7 @@ class Turkey(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Turkey, self).__init__(
@@ -1980,6 +1990,7 @@ class UK(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -2038,6 +2049,7 @@ class UK(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -2228,6 +2240,7 @@ class UK(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(UK, self).__init__(
@@ -2374,6 +2387,7 @@ class France(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -2437,6 +2451,7 @@ class France(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -2618,6 +2633,7 @@ class France(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(France, self).__init__(
@@ -2849,6 +2865,7 @@ class Germany(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -2909,6 +2926,7 @@ class Germany(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -3088,6 +3106,7 @@ class Germany(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Germany, self).__init__(
@@ -3452,6 +3471,7 @@ class USAFAggressors(Country):
         C_101CC = planes.C_101CC
         J_11A = planes.J_11A
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -3544,15 +3564,16 @@ class USAFAggressors(Country):
         Mirage_F1CT = planes.Mirage_F1CT
         Mirage_F1B = planes.Mirage_F1B
         Mirage_F1ED = planes.Mirage_F1ED
+        Mirage_F1AD = planes.Mirage_F1AD
         Mirage_F1BD = planes.Mirage_F1BD
         KJ_2000 = planes.KJ_2000
         H_6J = planes.H_6J
         Mirage_F1CZ = planes.Mirage_F1CZ
+        Mirage_F1AZ = planes.Mirage_F1AZ
         Mirage_F1CJ = planes.Mirage_F1CJ
         B_1B = planes.B_1B
         B_52H = planes.B_52H
         F_117A = planes.F_117A
-        F_14A = planes.F_14A
         S_3B_Tanker = planes.S_3B_Tanker
         S_3B = planes.S_3B
         F_14B = planes.F_14B
@@ -3582,6 +3603,7 @@ class USAFAggressors(Country):
         Plane.C_101CC,
         Plane.J_11A,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -3674,15 +3696,16 @@ class USAFAggressors(Country):
         Plane.Mirage_F1CT,
         Plane.Mirage_F1B,
         Plane.Mirage_F1ED,
+        Plane.Mirage_F1AD,
         Plane.Mirage_F1BD,
         Plane.KJ_2000,
         Plane.H_6J,
         Plane.Mirage_F1CZ,
+        Plane.Mirage_F1AZ,
         Plane.Mirage_F1CJ,
         Plane.B_1B,
         Plane.B_52H,
         Plane.F_117A,
-        Plane.F_14A,
         Plane.S_3B_Tanker,
         Plane.S_3B,
         Plane.F_14B,
@@ -3911,6 +3934,7 @@ class USAFAggressors(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(USAFAggressors, self).__init__(
@@ -4053,6 +4077,7 @@ class Canada(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -4107,6 +4132,7 @@ class Canada(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -4286,6 +4312,7 @@ class Canada(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Canada, self).__init__(
@@ -4423,6 +4450,7 @@ class Spain(Country):
         AJS37 = planes.AJS37
         KC135MPRS = planes.KC135MPRS
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -4483,6 +4511,7 @@ class Spain(Country):
         Plane.AJS37,
         Plane.KC135MPRS,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -4668,6 +4697,7 @@ class Spain(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Spain, self).__init__(
@@ -4831,6 +4861,7 @@ class TheNetherlands(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -4889,6 +4920,7 @@ class TheNetherlands(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -5077,6 +5109,7 @@ class TheNetherlands(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(TheNetherlands, self).__init__(
@@ -5217,6 +5250,7 @@ class Belgium(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -5273,6 +5307,7 @@ class Belgium(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -5455,6 +5490,7 @@ class Belgium(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Belgium, self).__init__(
@@ -5582,6 +5618,7 @@ class Norway(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -5638,6 +5675,7 @@ class Norway(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -5816,6 +5854,7 @@ class Norway(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Norway, self).__init__(
@@ -5943,6 +5982,7 @@ class Denmark(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -5999,6 +6039,7 @@ class Denmark(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -6175,6 +6216,7 @@ class Denmark(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Denmark, self).__init__(
@@ -6320,6 +6362,7 @@ class Israel(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -6379,6 +6422,7 @@ class Israel(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -6565,6 +6609,7 @@ class Israel(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Israel, self).__init__(
@@ -6747,6 +6792,7 @@ class Georgia(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -6803,6 +6849,7 @@ class Georgia(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -6989,6 +7036,7 @@ class Georgia(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Georgia, self).__init__(
@@ -7126,6 +7174,7 @@ class Insurgents(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -7176,6 +7225,7 @@ class Insurgents(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -7276,6 +7326,7 @@ class Insurgents(Country):
             CallsignGrassAirfield.B01
         ],
     }
+    use_western_callsigns = False
 
     def __init__(self):
         super(Insurgents, self).__init__(
@@ -7434,6 +7485,7 @@ class Abkhazia(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -7488,6 +7540,7 @@ class Abkhazia(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -7587,6 +7640,7 @@ class Abkhazia(Country):
             CallsignGrassAirfield.B01
         ],
     }
+    use_western_callsigns = False
 
     def __init__(self):
         super(Abkhazia, self).__init__(
@@ -7730,6 +7784,7 @@ class SouthOssetia(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -7779,6 +7834,7 @@ class SouthOssetia(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -7875,6 +7931,7 @@ class SouthOssetia(Country):
             CallsignGrassAirfield.B01
         ],
     }
+    use_western_callsigns = False
 
     def __init__(self):
         super(SouthOssetia, self).__init__(
@@ -8010,6 +8067,7 @@ class Italy(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -8070,6 +8128,7 @@ class Italy(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -8250,6 +8309,7 @@ class Italy(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Italy, self).__init__(
@@ -8394,6 +8454,7 @@ class Australia(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -8448,6 +8509,7 @@ class Australia(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -8632,6 +8694,7 @@ class Australia(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Australia, self).__init__(
@@ -8744,6 +8807,7 @@ class Switzerland(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -8795,6 +8859,7 @@ class Switzerland(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -8965,6 +9030,7 @@ class Switzerland(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Switzerland, self).__init__(
@@ -9069,6 +9135,7 @@ class Austria(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -9119,6 +9186,7 @@ class Austria(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -9293,6 +9361,7 @@ class Austria(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Austria, self).__init__(
@@ -9496,6 +9565,7 @@ class Belarus(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -9557,6 +9627,7 @@ class Belarus(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -9652,6 +9723,7 @@ class Belarus(Country):
             CallsignGrassAirfield.B01
         ],
     }
+    use_western_callsigns = False
 
     def __init__(self):
         super(Belarus, self).__init__(
@@ -9849,6 +9921,7 @@ class Bulgaria(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -9907,6 +9980,7 @@ class Bulgaria(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -10083,6 +10157,7 @@ class Bulgaria(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Bulgaria, self).__init__(
@@ -10235,6 +10310,7 @@ class CzechRepublic(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -10290,6 +10366,7 @@ class CzechRepublic(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -10471,6 +10548,7 @@ class CzechRepublic(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(CzechRepublic, self).__init__(
@@ -10621,6 +10699,7 @@ class China(Country):
         JF_17 = planes.JF_17
         WingLoong_I = planes.WingLoong_I
         H_6J = planes.H_6J
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -10682,6 +10761,7 @@ class China(Country):
         Plane.JF_17,
         Plane.WingLoong_I,
         Plane.H_6J,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -10782,6 +10862,7 @@ class China(Country):
             CallsignGrassAirfield.B01
         ],
     }
+    use_western_callsigns = False
 
     def __init__(self):
         super(China, self).__init__(
@@ -10888,6 +10969,7 @@ class Croatia(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -10938,6 +11020,7 @@ class Croatia(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -11118,6 +11201,7 @@ class Croatia(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Croatia, self).__init__(
@@ -11304,6 +11388,7 @@ class Egypt(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -11360,6 +11445,7 @@ class Egypt(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -11548,6 +11634,7 @@ class Egypt(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Egypt, self).__init__(
@@ -11723,6 +11810,7 @@ class Finland(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -11773,6 +11861,7 @@ class Finland(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -11949,6 +12038,7 @@ class Finland(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Finland, self).__init__(
@@ -12105,6 +12195,7 @@ class Greece(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -12162,6 +12253,7 @@ class Greece(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -12349,6 +12441,7 @@ class Greece(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Greece, self).__init__(
@@ -12534,6 +12627,7 @@ class Hungary(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -12588,6 +12682,7 @@ class Hungary(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -12764,6 +12859,7 @@ class Hungary(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Hungary, self).__init__(
@@ -12908,6 +13004,7 @@ class India(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -12966,6 +13063,7 @@ class India(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -13150,6 +13248,7 @@ class India(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(India, self).__init__(
@@ -13295,7 +13394,6 @@ class Iran(Country):
         IL_76MD = planes.IL_76MD
         MiG_21Bis = planes.MiG_21Bis
         A_50 = planes.A_50
-        F_14A = planes.F_14A
         C_130 = planes.C_130
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -13322,6 +13420,7 @@ class Iran(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -13356,7 +13455,6 @@ class Iran(Country):
         Plane.IL_76MD,
         Plane.MiG_21Bis,
         Plane.A_50,
-        Plane.F_14A,
         Plane.C_130,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -13383,6 +13481,7 @@ class Iran(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -13571,6 +13670,7 @@ class Iran(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Iran, self).__init__(
@@ -13735,6 +13835,7 @@ class Iraq(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -13794,6 +13895,7 @@ class Iraq(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -13969,6 +14071,7 @@ class Iraq(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Iraq, self).__init__(
@@ -14124,6 +14227,7 @@ class Japan(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -14176,6 +14280,7 @@ class Japan(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -14360,6 +14465,7 @@ class Japan(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Japan, self).__init__(
@@ -14569,6 +14675,7 @@ class Kazakhstan(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -14631,6 +14738,7 @@ class Kazakhstan(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -14813,6 +14921,7 @@ class Kazakhstan(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Kazakhstan, self).__init__(
@@ -14940,6 +15049,7 @@ class NorthKorea(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -14992,6 +15102,7 @@ class NorthKorea(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -15167,6 +15278,7 @@ class NorthKorea(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(NorthKorea, self).__init__(
@@ -15302,6 +15414,7 @@ class Pakistan(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -15359,6 +15472,7 @@ class Pakistan(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -15534,6 +15648,7 @@ class Pakistan(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Pakistan, self).__init__(
@@ -15714,6 +15829,7 @@ class Poland(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -15774,6 +15890,7 @@ class Poland(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -15952,6 +16069,7 @@ class Poland(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Poland, self).__init__(
@@ -16129,6 +16247,7 @@ class Romania(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -16184,6 +16303,7 @@ class Romania(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -16363,6 +16483,7 @@ class Romania(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Romania, self).__init__(
@@ -16503,6 +16624,7 @@ class SaudiArabia(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -16559,6 +16681,7 @@ class SaudiArabia(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -16742,6 +16865,7 @@ class SaudiArabia(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(SaudiArabia, self).__init__(
@@ -16893,6 +17017,7 @@ class Serbia(Country):
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
         WingLoong_I = planes.WingLoong_I
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -16947,6 +17072,7 @@ class Serbia(Country):
         Plane.C_101CC,
         Plane.JF_17,
         Plane.WingLoong_I,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -17123,6 +17249,7 @@ class Serbia(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Serbia, self).__init__(
@@ -17262,6 +17389,7 @@ class Slovakia(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -17316,6 +17444,7 @@ class Slovakia(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -17492,6 +17621,7 @@ class Slovakia(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Slovakia, self).__init__(
@@ -17629,6 +17759,7 @@ class SouthKorea(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -17684,6 +17815,7 @@ class SouthKorea(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -17857,6 +17989,7 @@ class SouthKorea(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(SouthKorea, self).__init__(
@@ -17967,6 +18100,7 @@ class Sweden(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -18020,6 +18154,7 @@ class Sweden(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -18193,6 +18328,7 @@ class Sweden(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Sweden, self).__init__(
@@ -18348,6 +18484,8 @@ class Syria(Country):
         MiG_29A = planes.MiG_29A
         Su_24M = planes.Su_24M
         Yak_40 = planes.Yak_40
+        Su_17M4 = planes.Su_17M4
+        MiG_25PD = planes.MiG_25PD
         FW_190A8 = planes.FW_190A8
         Bf_109K_4 = planes.Bf_109K_4
         SpitfireLFMkIX = planes.SpitfireLFMkIX
@@ -18366,6 +18504,7 @@ class Syria(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -18403,6 +18542,8 @@ class Syria(Country):
         Plane.MiG_29A,
         Plane.Su_24M,
         Plane.Yak_40,
+        Plane.Su_17M4,
+        Plane.MiG_25PD,
         Plane.FW_190A8,
         Plane.Bf_109K_4,
         Plane.SpitfireLFMkIX,
@@ -18421,6 +18562,7 @@ class Syria(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -18456,6 +18598,7 @@ class Syria(Country):
         SA342Mistral = helicopters.SA342Mistral
         SA342Minigun = helicopters.SA342Minigun
         Mi_24V = helicopters.Mi_24V
+        Mi_8MT = helicopters.Mi_8MT
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
         CH_47Fbl1 = helicopters.CH_47Fbl1
         OH58D = helicopters.OH58D
@@ -18468,6 +18611,7 @@ class Syria(Country):
         Helicopter.SA342Mistral,
         Helicopter.SA342Minigun,
         Helicopter.Mi_24V,
+        Helicopter.Mi_8MT,
         Helicopter.AH_64D_BLK_II,
         Helicopter.CH_47Fbl1,
         Helicopter.OH58D,
@@ -18597,6 +18741,7 @@ class Syria(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Syria, self).__init__(
@@ -18733,6 +18878,7 @@ class Yemen(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -18786,6 +18932,7 @@ class Yemen(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -18965,6 +19112,7 @@ class Yemen(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Yemen, self).__init__(
@@ -19116,6 +19264,7 @@ class Vietnam(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -19171,6 +19320,7 @@ class Vietnam(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -19345,6 +19495,7 @@ class Vietnam(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Vietnam, self).__init__(
@@ -19477,6 +19628,7 @@ class Venezuela(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -19529,6 +19681,7 @@ class Venezuela(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -19705,6 +19858,7 @@ class Venezuela(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Venezuela, self).__init__(
@@ -19809,6 +19963,7 @@ class Tunisia(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -19859,6 +20014,7 @@ class Tunisia(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -20029,6 +20185,7 @@ class Tunisia(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Tunisia, self).__init__(
@@ -20148,6 +20305,7 @@ class Thailand(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -20201,6 +20359,7 @@ class Thailand(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -20378,6 +20537,7 @@ class Thailand(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Thailand, self).__init__(
@@ -20500,6 +20660,7 @@ class Sudan(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -20554,6 +20715,7 @@ class Sudan(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -20728,6 +20890,7 @@ class Sudan(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Sudan, self).__init__(
@@ -20829,6 +20992,7 @@ class Philippines(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -20881,6 +21045,7 @@ class Philippines(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -21049,6 +21214,7 @@ class Philippines(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Philippines, self).__init__(
@@ -21180,6 +21346,7 @@ class Morocco(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -21234,6 +21401,7 @@ class Morocco(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -21412,6 +21580,7 @@ class Morocco(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Morocco, self).__init__(
@@ -21517,6 +21686,7 @@ class Mexico(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -21568,6 +21738,7 @@ class Mexico(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -21748,6 +21919,7 @@ class Mexico(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Mexico, self).__init__(
@@ -21860,6 +22032,7 @@ class Malaysia(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -21911,6 +22084,7 @@ class Malaysia(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -22086,6 +22260,7 @@ class Malaysia(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Malaysia, self).__init__(
@@ -22221,6 +22396,7 @@ class Libya(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -22244,6 +22420,7 @@ class Libya(Country):
         Mirage_F1CE = planes.Mirage_F1CE
         Mirage_F1EE = planes.Mirage_F1EE
         Mirage_F1ED = planes.Mirage_F1ED
+        Mirage_F1AD = planes.Mirage_F1AD
         Mirage_F1BE = planes.Mirage_F1BE
         Mirage_F1BD = planes.Mirage_F1BD
         TF_51D = planes.TF_51D
@@ -22275,6 +22452,7 @@ class Libya(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -22298,6 +22476,7 @@ class Libya(Country):
         Plane.Mirage_F1CE,
         Plane.Mirage_F1EE,
         Plane.Mirage_F1ED,
+        Plane.Mirage_F1AD,
         Plane.Mirage_F1BE,
         Plane.Mirage_F1BD,
         Plane.TF_51D,
@@ -22452,6 +22631,7 @@ class Libya(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Libya, self).__init__(
@@ -22579,6 +22759,7 @@ class Jordan(Country):
         KC130 = planes.KC130
         KC135MPRS = planes.KC135MPRS
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -22633,6 +22814,7 @@ class Jordan(Country):
         Plane.KC130,
         Plane.KC135MPRS,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -22814,6 +22996,7 @@ class Jordan(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Jordan, self).__init__(
@@ -22962,6 +23145,7 @@ class Indonesia(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -23019,6 +23203,7 @@ class Indonesia(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -23197,6 +23382,7 @@ class Indonesia(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Indonesia, self).__init__(
@@ -23298,6 +23484,7 @@ class Honduras(Country):
         KC130 = planes.KC130
         KC135MPRS = planes.KC135MPRS
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -23348,6 +23535,7 @@ class Honduras(Country):
         Plane.KC130,
         Plane.KC135MPRS,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -23521,6 +23709,7 @@ class Honduras(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Honduras, self).__init__(
@@ -23653,6 +23842,7 @@ class Ethiopia(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -23706,6 +23896,7 @@ class Ethiopia(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -23875,6 +24066,7 @@ class Ethiopia(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Ethiopia, self).__init__(
@@ -23999,6 +24191,7 @@ class Chile(Country):
         AV8BNA = planes.AV8BNA
         KC130 = planes.KC130
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -24055,6 +24248,7 @@ class Chile(Country):
         Plane.AV8BNA,
         Plane.KC130,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -24236,6 +24430,7 @@ class Chile(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Chile, self).__init__(
@@ -24362,6 +24557,7 @@ class Brazil(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -24413,6 +24609,7 @@ class Brazil(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -24589,6 +24786,7 @@ class Brazil(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Brazil, self).__init__(
@@ -24711,6 +24909,7 @@ class Bahrain(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -24760,6 +24959,7 @@ class Bahrain(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -24934,6 +25134,7 @@ class Bahrain(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Bahrain, self).__init__(
@@ -25058,6 +25259,7 @@ class ThirdReich(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -25108,6 +25310,7 @@ class ThirdReich(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -25285,6 +25488,7 @@ class ThirdReich(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(ThirdReich, self).__init__(
@@ -25421,6 +25625,7 @@ class Yugoslavia(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -25473,6 +25678,7 @@ class Yugoslavia(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -25567,6 +25773,7 @@ class Yugoslavia(Country):
             CallsignGrassAirfield.B01
         ],
     }
+    use_western_callsigns = False
 
     def __init__(self):
         super(Yugoslavia, self).__init__(
@@ -25812,6 +26019,7 @@ class USSR(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -25887,6 +26095,7 @@ class USSR(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -25993,6 +26202,7 @@ class USSR(Country):
             CallsignGrassAirfield.B01
         ],
     }
+    use_western_callsigns = False
 
     def __init__(self):
         super(USSR, self).__init__(
@@ -26116,6 +26326,7 @@ class ItalianSocialRepublic(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -26165,6 +26376,7 @@ class ItalianSocialRepublic(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -26342,6 +26554,7 @@ class ItalianSocialRepublic(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(ItalianSocialRepublic, self).__init__(
@@ -26549,6 +26762,7 @@ class Algeria(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -26615,6 +26829,7 @@ class Algeria(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -26808,6 +27023,7 @@ class Algeria(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Algeria, self).__init__(
@@ -26934,6 +27150,7 @@ class Kuwait(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -26986,6 +27203,7 @@ class Kuwait(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -27162,6 +27380,7 @@ class Kuwait(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Kuwait, self).__init__(
@@ -27275,6 +27494,7 @@ class Qatar(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -27328,6 +27548,7 @@ class Qatar(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -27504,6 +27725,7 @@ class Qatar(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Qatar, self).__init__(
@@ -27637,6 +27859,7 @@ class Oman(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -27689,6 +27912,7 @@ class Oman(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -27867,6 +28091,7 @@ class Oman(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Oman, self).__init__(
@@ -28002,6 +28227,7 @@ class UnitedArabEmirates(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -28056,6 +28282,7 @@ class UnitedArabEmirates(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -28240,6 +28467,7 @@ class UnitedArabEmirates(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(UnitedArabEmirates, self).__init__(
@@ -28345,6 +28573,7 @@ class SouthAfrica(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -28366,6 +28595,7 @@ class SouthAfrica(Country):
         Mirage_F1CE = planes.Mirage_F1CE
         Mirage_F1EE = planes.Mirage_F1EE
         Mirage_F1CZ = planes.Mirage_F1CZ
+        Mirage_F1AZ = planes.Mirage_F1AZ
         Mirage_F1BE = planes.Mirage_F1BE
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
@@ -28398,6 +28628,7 @@ class SouthAfrica(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -28419,6 +28650,7 @@ class SouthAfrica(Country):
         Plane.Mirage_F1CE,
         Plane.Mirage_F1EE,
         Plane.Mirage_F1CZ,
+        Plane.Mirage_F1AZ,
         Plane.Mirage_F1BE,
         Plane.Yak_52,
         Plane.Ju_88A4,
@@ -28573,6 +28805,7 @@ class SouthAfrica(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(SouthAfrica, self).__init__(
@@ -28738,6 +28971,7 @@ class Cuba(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -28798,6 +29032,7 @@ class Cuba(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -28977,6 +29212,7 @@ class Cuba(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Cuba, self).__init__(
@@ -29093,6 +29329,7 @@ class Portugal(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -29148,6 +29385,7 @@ class Portugal(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -29320,6 +29558,7 @@ class Portugal(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Portugal, self).__init__(
@@ -29475,6 +29714,7 @@ class GDR(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -29528,6 +29768,7 @@ class GDR(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -29700,6 +29941,7 @@ class GDR(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = False
 
     def __init__(self):
         super(GDR, self).__init__(
@@ -29827,6 +30069,7 @@ class Lebanon(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -29878,6 +30121,7 @@ class Lebanon(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -30056,6 +30300,7 @@ class Lebanon(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Lebanon, self).__init__(
@@ -30419,6 +30664,7 @@ class CombinedJointTaskForcesBlue(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -30511,16 +30757,17 @@ class CombinedJointTaskForcesBlue(Country):
         Mirage_F1CT = planes.Mirage_F1CT
         Mirage_F1B = planes.Mirage_F1B
         Mirage_F1ED = planes.Mirage_F1ED
+        Mirage_F1AD = planes.Mirage_F1AD
         Mirage_F1BD = planes.Mirage_F1BD
         J_11A = planes.J_11A
         KJ_2000 = planes.KJ_2000
         H_6J = planes.H_6J
         Mirage_F1CZ = planes.Mirage_F1CZ
+        Mirage_F1AZ = planes.Mirage_F1AZ
         Mirage_F1CJ = planes.Mirage_F1CJ
         B_1B = planes.B_1B
         B_52H = planes.B_52H
         F_117A = planes.F_117A
-        F_14A = planes.F_14A
         S_3B_Tanker = planes.S_3B_Tanker
         S_3B = planes.S_3B
         F_14B = planes.F_14B
@@ -30549,6 +30796,7 @@ class CombinedJointTaskForcesBlue(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -30641,16 +30889,17 @@ class CombinedJointTaskForcesBlue(Country):
         Plane.Mirage_F1CT,
         Plane.Mirage_F1B,
         Plane.Mirage_F1ED,
+        Plane.Mirage_F1AD,
         Plane.Mirage_F1BD,
         Plane.J_11A,
         Plane.KJ_2000,
         Plane.H_6J,
         Plane.Mirage_F1CZ,
+        Plane.Mirage_F1AZ,
         Plane.Mirage_F1CJ,
         Plane.B_1B,
         Plane.B_52H,
         Plane.F_117A,
-        Plane.F_14A,
         Plane.S_3B_Tanker,
         Plane.S_3B,
         Plane.F_14B,
@@ -30879,6 +31128,7 @@ class CombinedJointTaskForcesBlue(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(CombinedJointTaskForcesBlue, self).__init__(
@@ -31242,6 +31492,7 @@ class CombinedJointTaskForcesRed(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -31334,16 +31585,17 @@ class CombinedJointTaskForcesRed(Country):
         Mirage_F1CT = planes.Mirage_F1CT
         Mirage_F1B = planes.Mirage_F1B
         Mirage_F1ED = planes.Mirage_F1ED
+        Mirage_F1AD = planes.Mirage_F1AD
         Mirage_F1BD = planes.Mirage_F1BD
         J_11A = planes.J_11A
         KJ_2000 = planes.KJ_2000
         H_6J = planes.H_6J
         Mirage_F1CZ = planes.Mirage_F1CZ
+        Mirage_F1AZ = planes.Mirage_F1AZ
         Mirage_F1CJ = planes.Mirage_F1CJ
         B_1B = planes.B_1B
         B_52H = planes.B_52H
         F_117A = planes.F_117A
-        F_14A = planes.F_14A
         S_3B_Tanker = planes.S_3B_Tanker
         S_3B = planes.S_3B
         F_14B = planes.F_14B
@@ -31372,6 +31624,7 @@ class CombinedJointTaskForcesRed(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -31464,16 +31717,17 @@ class CombinedJointTaskForcesRed(Country):
         Plane.Mirage_F1CT,
         Plane.Mirage_F1B,
         Plane.Mirage_F1ED,
+        Plane.Mirage_F1AD,
         Plane.Mirage_F1BD,
         Plane.J_11A,
         Plane.KJ_2000,
         Plane.H_6J,
         Plane.Mirage_F1CZ,
+        Plane.Mirage_F1AZ,
         Plane.Mirage_F1CJ,
         Plane.B_1B,
         Plane.B_52H,
         Plane.F_117A,
-        Plane.F_14A,
         Plane.S_3B_Tanker,
         Plane.S_3B,
         Plane.F_14B,
@@ -31702,6 +31956,7 @@ class CombinedJointTaskForcesRed(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(CombinedJointTaskForcesRed, self).__init__(
@@ -32065,6 +32320,7 @@ class UnitedNationsPeacekeepers(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -32157,16 +32413,17 @@ class UnitedNationsPeacekeepers(Country):
         Mirage_F1CT = planes.Mirage_F1CT
         Mirage_F1B = planes.Mirage_F1B
         Mirage_F1ED = planes.Mirage_F1ED
+        Mirage_F1AD = planes.Mirage_F1AD
         Mirage_F1BD = planes.Mirage_F1BD
         J_11A = planes.J_11A
         KJ_2000 = planes.KJ_2000
         H_6J = planes.H_6J
         Mirage_F1CZ = planes.Mirage_F1CZ
+        Mirage_F1AZ = planes.Mirage_F1AZ
         Mirage_F1CJ = planes.Mirage_F1CJ
         B_1B = planes.B_1B
         B_52H = planes.B_52H
         F_117A = planes.F_117A
-        F_14A = planes.F_14A
         S_3B_Tanker = planes.S_3B_Tanker
         S_3B = planes.S_3B
         F_14B = planes.F_14B
@@ -32195,6 +32452,7 @@ class UnitedNationsPeacekeepers(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -32287,16 +32545,17 @@ class UnitedNationsPeacekeepers(Country):
         Plane.Mirage_F1CT,
         Plane.Mirage_F1B,
         Plane.Mirage_F1ED,
+        Plane.Mirage_F1AD,
         Plane.Mirage_F1BD,
         Plane.J_11A,
         Plane.KJ_2000,
         Plane.H_6J,
         Plane.Mirage_F1CZ,
+        Plane.Mirage_F1AZ,
         Plane.Mirage_F1CJ,
         Plane.B_1B,
         Plane.B_52H,
         Plane.F_117A,
-        Plane.F_14A,
         Plane.S_3B_Tanker,
         Plane.S_3B,
         Plane.F_14B,
@@ -32525,6 +32784,7 @@ class UnitedNationsPeacekeepers(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(UnitedNationsPeacekeepers, self).__init__(
@@ -32634,6 +32894,7 @@ class Argentina(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -32685,6 +32946,7 @@ class Argentina(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -32865,6 +33127,7 @@ class Argentina(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Argentina, self).__init__(
@@ -32987,6 +33250,7 @@ class Cyprus(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -33037,6 +33301,7 @@ class Cyprus(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -33214,6 +33479,7 @@ class Cyprus(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Cyprus, self).__init__(
@@ -33329,6 +33595,7 @@ class Slovenia(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -33380,6 +33647,7 @@ class Slovenia(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -33560,6 +33828,7 @@ class Slovenia(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Slovenia, self).__init__(
@@ -33676,6 +33945,7 @@ class Bolivia(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -33729,6 +33999,7 @@ class Bolivia(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -33902,6 +34173,7 @@ class Bolivia(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Bolivia, self).__init__(
@@ -34004,6 +34276,7 @@ class Ghana(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -34054,6 +34327,7 @@ class Ghana(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -34232,6 +34506,7 @@ class Ghana(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Ghana, self).__init__(
@@ -34345,6 +34620,7 @@ class Nigeria(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -34396,6 +34672,7 @@ class Nigeria(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -34576,6 +34853,7 @@ class Nigeria(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Nigeria, self).__init__(
@@ -34698,6 +34976,7 @@ class Peru(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -34754,6 +35033,7 @@ class Peru(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -34934,6 +35214,7 @@ class Peru(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Peru, self).__init__(
@@ -35042,6 +35323,7 @@ class Ecuador(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -35094,6 +35376,7 @@ class Ecuador(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -35273,6 +35556,7 @@ class Ecuador(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Ecuador, self).__init__(
@@ -35413,6 +35697,7 @@ class Afghanistan(Country):
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
@@ -35466,6 +35751,7 @@ class Afghanistan(Country):
         Plane.C_101EB,
         Plane.C_101CC,
         Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
@@ -35645,6 +35931,7 @@ class Afghanistan(Country):
             CallsignGrassAirfield.New_York
         ],
     }
+    use_western_callsigns = True
 
     def __init__(self):
         super(Afghanistan, self).__init__(
