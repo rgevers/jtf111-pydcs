@@ -60,12 +60,15 @@ def processTexaco(group):
     print("Processing", group.name)
     
     group.frequency = 280
+    #Make this add the task if it is missing?
+    #Loop through tasks at each point?
     for point in group.points:
-        if len(point.tasks) > 0 and point.tasks[0].id == "Orbit":
+        if len(point.tasks) > 1 and point.tasks[1].id == "Orbit":
             #Set speed and altitutde
             point.tasks[0].params['altitude'] = 6705
             point.tasks[0].params['speed'] = 221
     
+    #Need to add tacans
     plane = group.units[0]
     plane.addpropaircraft['VoiceCallsignLabel'] = "TO"
     plane.addpropaircraft['VoiceCallsignNumber'] = "11"
@@ -76,7 +79,7 @@ def processShell(group):
     
     group.frequency = 280.3
     for point in group.points:
-        if len(point.tasks) > 0 and point.tasks[0].id == "Orbit":
+        if len(point.tasks) > 1 and point.tasks[1].id == "Orbit":
             #Set speed and altitutde
             point.tasks[0].params['altitude'] = 7620
             point.tasks[0].params['speed'] = 257
@@ -91,7 +94,7 @@ def processArco(group):
     
     group.frequency = 280.5
     for point in group.points:
-        if len(point.tasks) > 0 and point.tasks[0].id == "Orbit":
+        if len(point.tasks) > 1 and point.tasks[1].id == "Orbit":
             #Set speed and altitutde
             point.tasks[0].params['altitude'] = 6401
             point.tasks[0].params['speed'] = 190
